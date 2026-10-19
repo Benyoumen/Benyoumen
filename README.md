@@ -24,7 +24,7 @@ Same objective in both: solve a real problem, create measurable value for users,
 
 ### Prioritization is half the job
 
-Epics, Features, User Stories and tasks, placed in Now / Next / Later and prioritized by user value, KPI impact, expected ROI, effort and dependencies. The goal is to find the shortest path to meaningful value: sometimes a small feature comes first because it unlocks a much higher-impact capability. Functional and technical specs are rendered as readable HTML so developers, QA and non-technical sponsors can understand what is being built, why it matters and which KPI it should move. Sprint simulations connect Fibonacci points, team capacity and delivery dates to those priorities.
+Epics, Features, User Stories and tasks, placed in Now / Next / Later and prioritized by user value, KPI impact, expected ROI, effort and dependencies. The goal is to find the shortest path to meaningful value: sometimes a small feature comes first because it unlocks a much higher-impact capability. Functional and technical specs are rendered as readable HTML so developers, QA and non-technical sponsors can understand what is being built, why it matters and which KPI it should move. Sprint simulations connect Fibonacci points, team capacity and delivery dates to those priorities. The whole backlog is reviewed in a generated document before anything reaches DevOps or Jira, with the sprint planning run inside it: owners and Fibonacci points per story, each developer's points against their capacity and the team's against the sprint limit, live, with an alert the moment someone is over. A board shows one card at a time; the document shows the why, the waves and the capacity together.
 
 ### Visual AI slop is manageable
 
@@ -63,8 +63,8 @@ AI adoption programs I co-designed and delivered reached about 3,000 leaders, Pr
       <p><b>PM Deck and Writing Skills.</b> Editorial rules, a build pipeline with QA gates, and the anti-slop rewrite pass for decks and project messages. The sample deck is rendered with its own rules. <a href="https://benyoumen.github.io/pm-deck-and-writing-skills/">Live deck</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://benyoumen.github.io/backlog-writing-system/spec-preview.html"><img src="assets/cards/spec.svg" alt="Readable spec preview" width="100%"></a>
-      <p><b>Readable spec preview.</b> A functional and technical spec rendered as one page a developer, a QA and a sponsor can all read: one plain sentence per item, numbered sections, a glossary, phases and the schedule. <a href="https://benyoumen.github.io/backlog-writing-system/spec-preview.html">Open the example</a></p>
+      <a href="https://benyoumen.github.io/backlog-writing-system/backlog-document.html"><img src="assets/cards/backlogdoc.svg" alt="The backlog document" width="100%"></a>
+      <p><b>The backlog document.</b> How I review a whole backlog before it reaches DevOps or Jira: waves of delivery, every Epic, Feature and Story with its plain sentence, and a planning layer where owners and Fibonacci points are set per story while a live bar shows each person and the team against their capacity, alerting above the limit. <a href="https://benyoumen.github.io/backlog-writing-system/backlog-document.html">Open the document</a> · <a href="https://benyoumen.github.io/backlog-writing-system/spec-preview.html">Spec preview</a></p>
     </td>
   </tr>
 </table>
