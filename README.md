@@ -7,32 +7,32 @@
 
 ## About me
 
-Seventeen years building and scaling digital products, from early-stage ideas to a B2B SaaS platform used by thousands of real estate businesses, as VP Product & Growth, CEO and founder. Since 2023 I build AI products and agentic systems, I teach product, executive and engineering teams to work with them, and I spend most of my energy on the two things that decide whether any of it pays off: finding the real problem, and prioritizing the work so the team finds its pace.
+17 years building and scaling digital products, from early-stage ideas to a B2B SaaS platform used by thousands of real estate businesses, as VP Product & Growth, CEO and founder. Since 2023 I build AI products and agentic systems, I teach product, executive and engineering teams to work with them, and I spend most of my energy on the two things that decide whether any of it pays off: finding the real problem, and prioritizing the work so the team finds its pace.
 
 ### What I build: agentic systems with a measured return
 
-The sales solution I built most recently is a multi-agent system that prepares a salesperson for a meeting. It researches the account, qualifies it, finds similar customers worth prospecting, and assembles the preparation that used to take up to two days, in about thirty minutes. Adoption reached 90% of the teams that use it, and each person gets one to two hours a day back. Before that, a WhatsApp sales workflow for a high-volume operation: 100% of first contacts answered for 2,000 to 3,000 leads a month, win rate from 20% to 42%, with a smaller team.
+The most recent sales AI solution I built is a multi-agent system that automates and accelerates the sales workflow, helping teams prospect faster, prioritize the right accounts, prepare for meetings, manage opportunities, keep CRM data current, and generate proactive pipeline insights and forecasts. It researches and qualifies accounts, identifies similar customers worth prospecting, prioritizes opportunities, and prepares sellers for meetings. Work that could previously take up to two days can now be completed in around 30 minutes. Adoption reached 90% across the teams using it, saving each salesperson roughly one to two hours per day.
 
-What they have in common: deterministic steps where the process is known, a model only where judgment is needed, a person approving anything that writes to the system of record until the agent has earned that tier, and a number agreed before the build.
+The design principle was simple: keep deterministic steps where the process is known, use AI only where judgment adds value, and require human approval before an agent can write to the system of record until it has earned a higher level of autonomy. We also defined the business KPI before building, so success was measured against an agreed baseline rather than by how much output the agents produced.
 
 ### Two ways I work, one discipline
 
-- **Forward-deployed.** Inside a client's operation, building a customized solution on their data and their process: fourteen days of discovery and process redesign, a baseline KPI, prototype validation, then sixty to ninety days to production.
-- **Product building.** A product for many customers, where discovery means interviews, prototypes and a Now / Next / Later roadmap that survives contact with a sales team.
+- **Forward-deployed.** Inside a client's operation, building a tailored solution on their data and workflows: discovery and process redesign, a baseline KPI, prototype validation, then production.
+- **Product building.** A product for many customers, where discovery means interviews, prototypes and a Now / Next / Later roadmap driven by user value, KPI impact and expected ROI.
 
-Same objective in both: a real problem with impact for the people who have it, an ROI agreed before building, and prioritization treated as seriously as discovery, because a backlog cut in the right order is what lets a team find its best pace.
+Same objective in both: solve a real problem, create measurable value for users, define the KPI before building, estimate the ROI, and prioritize what creates the most impact first.
 
 ### Prioritization is half the job
 
-Epics, Features, User Stories and tasks, placed in Now / Next / Later, scored by ROI impact, and sequenced by the chain of what has to exist first: the small features that carry little value alone but make the first big one live. Functional and technical specs rendered as readable HTML that a developer, a QA or a non-technical sponsor reads without a meeting. And a live sprint simulation: Fibonacci points, the developers by name, the team's weekly capacity, and the date the epic lands, recomputed as you move a story. All of it is public below, with an interactive version.
+Epics, Features, User Stories and tasks, placed in Now / Next / Later and prioritized by user value, KPI impact, expected ROI, effort and dependencies. The goal is to find the shortest path to meaningful value: sometimes a small feature comes first because it unlocks a much higher-impact capability. Functional and technical specs are rendered as readable HTML so developers, QA and non-technical sponsors can understand what is being built, why it matters and which KPI it should move. Sprint simulations connect Fibonacci points, team capacity and delivery dates to those priorities.
 
 ### Visual AI slop is manageable
 
-AI builds a screen in minutes, and the default result looks like every other AI screen. In 2026 that costs credibility the moment a customer, a sponsor or a candidate opens it. Taste is the scarce input, and it can be learned: a small set of rules, real data in the mockup, a few checks you can measure. Product building and product design are not optional for a product manager anymore. A readable HTML mockup, validated with stakeholders before a line of production code, is still the fastest way to validate an idea, above all with people who are not technical, and it works the same for a custom solution and for an agentic system. The rules, the workflow and live mockups are below.
+AI can build a screen in minutes, but the default result often looks like every other AI screen. That quickly reduces credibility. Product Managers need enough design judgment to create prototypes that feel real, use realistic data and communicate value clearly. A readable HTML mockup, validated with users and stakeholders before production code, is one of the fastest ways to test whether an idea creates enough user value and expected ROI to deserve a place on the roadmap.
 
 ### Teaching
 
-AI adoption programs I co-designed and delivered reached about 3,000 leaders, product managers and developers, including executive education with FGV, Secovi-SP and LARES: internal tools, agentic workflows, AI-assisted development.
+AI adoption programs I co-designed and delivered reached about 3,000 leaders, Product Managers and developers, including executive education with FGV, Secovi-SP and LARES. The focus: identifying high-value AI use cases, connecting them to KPIs and ROI, redesigning workflows and helping teams prioritize what is actually worth building.
 
 ## What you'll find here
 
