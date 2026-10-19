@@ -73,23 +73,58 @@ Every example uses a fictional product and fictional data. Nothing comes from a 
 
 ## How I work, in plain words
 
-```mermaid
-flowchart LR
-    A["Find the real problem"] --> B["Measure how it is today"]
-    B --> C["Show a mockup, decide together"]
-    C --> D["Prioritize what makes it live"]
-    D --> E["Build in weekly slices"]
-    E --> F["Measure the gain"]
-```
+Two loops run everything I build. The first is for the product: it starts from a number and ends by reading it. The second is for an AI agent: it sets how much the agent may do on its own, and that is earned with evidence, never with a demo. Both loops run the same way forward-deployed inside a client's operation and in product building for many customers. What changes is who sits in discovery and where the number is read.
 
-*One loop, repeated. The number measured at the end is the first line of the next problem.*
+### The product loop
 
 ```mermaid
 flowchart LR
-    A["Watches"] --> B["Warns"] --> C["Suggests"] --> D["Acts, you approve"] --> E["Acts alone"]
+    F["0 Frame<br/>the problem and the number"] --> D["1 Discover<br/>a mockup, learn cheaply"]
+    D --> S["2 Decide<br/>a short spec"]
+    S --> P["3 Prioritize<br/>Now / Next / Later, prerequisites first"]
+    P --> W["4 Write<br/>items four readers can act on"]
+    W --> B["5 Build and verify<br/>weekly slices, evals as the bar"]
+    B --> L["6 Ship and learn<br/>did the number move?"]
+    L -. "what we learned opens the next frame" .-> F
+    L -. "a production failure becomes a test case" .-> B
 ```
 
-*How an AI agent earns trust. Each step up needs proof: tests on real cases, weeks of shadow use, zero forbidden actions.*
+*Seven steps, one loop. Each arrow is a gate with one question. When the answer is no, the work goes back one step, not to a meeting. The number read at the end is the first line of the next frame.*
+
+| Step | Before the next step starts | What exists at the end |
+|---|---|---|
+| 0 Frame | The number, today's baseline and the time budget fit in one sentence | A one-page frame: the problem, who has it, the evidence, the number, the appetite, what we are not doing |
+| 1 Discover | We learned something that changes the plan, at low cost | A mockup or prototype on realistic data, decided with users and stakeholders, and a dated note of what is settled and what is not |
+| 2 Decide | An engineer could start without a meeting | A short spec: the success criterion, what an agent may do on its own, only with approval, or never, the evals plan, what is out of scope |
+| 3 Prioritize | Every feature in Now has its prerequisites in Now | A Now / Next / Later board scored by ROI impact, with the enabling chain and the go-live wave |
+| 4 Write | Each item makes sense to an engineer, a designer, a sponsor and a coding agent | Epics, features and stories with their why, eval cases, and one readable spec page for all four readers |
+| 5 Build and verify | Checks pass and, for AI behavior, the agreed pass rate on cases it never saw, with zero forbidden actions | A usable slice every week, its eval pass rate, and a capacity plan with the dates derived from it |
+| 6 Ship and learn | The number moved, or we know why not | A weekly snapshot that shows what was removed, a roadmap with its photo date, the next frame |
+
+### How an AI agent earns autonomy
+
+```mermaid
+flowchart LR
+    T0["0 Observe<br/>reads and reports"] -- "reads correctly" --> T1["1 Alert<br/>flags what needs attention"]
+    T1 -- "passes the test cases" --> T2["2 Propose<br/>prepares, a person approves"]
+    T2 -- "shadow period, undo works, owner signs" --> T3["3 Act with review<br/>acts, a person reviews a sample"]
+    T3 -- "keeps passing on new cases" --> T4["4 Act alone<br/>acts and reports"]
+    T4 -. "a mistake or a drop in score: back one tier" .-> T3
+```
+
+*Autonomy is set per action type, not per agent: an agent may log a note on its own and still only propose the email. Each step up needs evidence: a pass rate on a frozen set of real cases, a shadow period where its proposals are compared with what people actually did, working undo, and the process owner's signature. One mistake sends it back a tier. An irreversible action, such as an email to a customer or a payment, stays at Propose until the owner accepts the cost of one error in writing. Guardrails stay on at every tier.*
+
+| Tier | The agent may | The person |
+|---|---|---|
+| 0 Observe | Read and report | Does everything |
+| 1 Alert | Flag what needs attention | Decides and acts |
+| 2 Propose | Prepare the action fully | Approves, edits or rejects each one |
+| 3 Act with review | Execute, with undo and a trail | Reviews a sample and the exceptions |
+| 4 Act alone | Execute and report | Reads summaries and handles escalations |
+
+### Where it comes from
+
+The loop is the discovery-and-delivery model that product organizations have converged on: [build to learn before you build to earn](https://www.svpg.com/the-ai-productivity-paradox/), weekly contact with users and assumption tests, a fixed appetite with variable scope, and an outcome roadmap in Now / Next / Later instead of dates. Two things are added for AI products: the enabling chain, so the valuable feature is never blocked by the unglamorous one it depends on, and evals as the acceptance criterion wherever the behavior is probabilistic. The ladder follows the [levels of autonomy](https://arxiv.org/abs/2506.12469) now used to classify agents, where the person's role moves from operator to observer as the agent proves itself. What it adds is the mechanics: tiers per action type, the evidence each step requires, the cap on irreversible actions and the demotion rule. The full method, with its sources and where it departs from them: [the backlog workflow](https://github.com/Benyoumen/backlog-writing-system/blob/main/docs/workflow.md) · [the agent principles](https://github.com/Benyoumen/agent-design-principles/blob/main/docs/principles.md).
 
 ## Background
 
