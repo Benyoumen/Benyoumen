@@ -1,8 +1,9 @@
 <h1 align="center">Hi, I'm Ben 👋</h1>
 
-<p align="center"><b>Product leader in São Paulo. I find the problem worth solving, prioritize what makes it live, and build it with AI, without the slop.</b></p>
 
 ![Benjamin Tayar](assets/banner.svg)
+
+<p align="center"><b>Product leader in São Paulo. I find the problem worth solving, prioritize what makes it live, and build it with AI, without the slop.</b></p>
 
 ## About me
 
