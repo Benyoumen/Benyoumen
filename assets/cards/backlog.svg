@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" role="img" aria-label="Backlog Writing System">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f3a8a"/><stop offset="1" stop-color="#0ea5a4"/></linearGradient></defs>
+<rect width="640" height="320" rx="20" fill="url(#g)"/>
+<circle cx="560" cy="40" r="110" fill="#ffffff" fill-opacity="0.06"/><circle cx="610" cy="290" r="80" fill="#ffffff" fill-opacity="0.06"/>
+<text x="40" y="78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Backlog Writing System</text>
+<text x="40" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" fill-opacity="0.92">A backlog is a set of decisions. Frame, spec,</text><text x="40" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" fill-opacity="0.92">slice, write, evals, honest weekly cadence.</text>
+<rect x="40" y="212" rx="14" ry="14" width="97" height="30" fill="#ffffff" fill-opacity="0.16"/><text x="52" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">18 skills</text><rect x="145" y="212" rx="14" ry="14" width="97" height="30" fill="#ffffff" fill-opacity="0.16"/><text x="157" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">Templates</text><rect x="250" y="212" rx="14" ry="14" width="137" height="30" fill="#ffffff" fill-opacity="0.16"/><text x="262" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">Worked example</text>
+<circle cx="52" cy="276" r="6" fill="#4ade80"/><text x="66" y="281" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" fill-opacity="0.95">Field guide site</text>
+</svg>
