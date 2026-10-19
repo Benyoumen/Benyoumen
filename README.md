@@ -1,26 +1,37 @@
+<h1 align="center">Hi, I'm Ben 👋</h1>
+
+<p align="center"><b>Product leader in São Paulo. I find the problem worth solving, prioritize what makes it live, and build it with AI, without the slop.</b></p>
+
 ![Benjamin Tayar](assets/banner.svg)
 
 ## About me
 
-Product leader based in São Paulo, focused on one question: how AI makes products and teams work better, measurably.
+Seventeen years building and scaling digital products, from early-stage ideas to a B2B SaaS platform used by thousands of real estate businesses, as VP Product & Growth, CEO and founder. Since 2023 I build AI products and agentic systems, I teach product, executive and engineering teams to work with them, and I spend most of my energy on the two things that decide whether any of it pays off: finding the real problem, and prioritizing the work so the team finds its pace.
 
-Fifteen years building and scaling digital products, from early-stage ideas to a B2B SaaS platform used by thousands of real estate businesses, as VP Product & Growth, CEO and founder. Since 2023 I build AI products and agentic systems, and I teach product, executive and engineering teams how to work with them.
+### What I build: agentic systems with a measured return
 
-### What I build
+The sales solution I built most recently is a multi-agent system that prepares a salesperson for a meeting. It researches the account, qualifies it, finds similar customers worth prospecting, and assembles the preparation that used to take up to two days, in about thirty minutes. Adoption reached 90% of the teams that use it, and each person gets one to two hours a day back. Before that, a WhatsApp sales workflow for a high-volume operation: 100% of first contacts answered for 2,000 to 3,000 leads a month, win rate from 20% to 42%, with a smaller team.
 
-- **Agentic systems in production.** A multi-agent system that cut account research and meeting preparation from up to two days to about thirty minutes, with 90% adoption in the sales teams that use it. A WhatsApp sales workflow that answers 100% of first contacts for 2,000 to 3,000 leads a month and took the win rate from 20% to 42%. An internal MCP server that connects a company's tools and data with external tools. The pattern is the same each time: deterministic orchestration where the process is known, a model only where judgment is needed, and every write to the system of record under a contract.
-- **The harness around the model.** The model is the smallest part of an agent product. Quality is decided by the harness: the tools and data the agent may reach, the context it is given, the evals that gate each tier of autonomy, and the governance that tracks business KPIs, agent performance, human-in-the-loop controls and cost. That layer is where I spend my time.
-- **Autonomy that is earned.** An agent gets to act alone tier by tier, on evals and shadow time, never on a demo. Irreversible actions stay capped until someone accepts the cost of an error in writing.
-- **Discovery before delivery.** A 14-day discovery and process redesign with a baseline KPI, prototype validation, then a 60 to 90 day production cycle. The baseline is what turns "AI is helping" from an opinion into a measurement.
-- **Specs that people and coding agents can build from.** Why it exists, what it must never do, how it is verified. The whole method is public below.
+What they have in common: deterministic steps where the process is known, a model only where judgment is needed, a person approving anything that writes to the system of record until the agent has earned that tier, and a number agreed before the build.
 
-### Taste is the scarce input
+### Two ways I work, one discipline
 
-AI made output free, and the default output is generic: the same gradients, the same phrasing, the same layouts, the same hundred tickets. I treat that as a defect, in writing and in design. Visual slop costs credibility the moment a customer, a candidate or a board member opens the page. I have led UX/UI designers and a website product used by thousands of businesses, and today I design and build the sites and prototypes myself, with AI tools and a no-slop standard for both the words and the screens. The rules I use for that are published here.
+- **Forward-deployed.** Inside a client's operation, building a customized solution on their data and their process: fourteen days of discovery and process redesign, a baseline KPI, prototype validation, then sixty to ninety days to production.
+- **Product building.** A product for many customers, where discovery means interviews, prototypes and a Now / Next / Later roadmap that survives contact with a sales team.
+
+Same objective in both: a real problem with impact for the people who have it, an ROI agreed before building, and prioritization treated as seriously as discovery, because a backlog cut in the right order is what lets a team find its best pace.
+
+### Prioritization is half the job
+
+Epics, Features, User Stories and tasks, placed in Now / Next / Later, scored by ROI impact, and sequenced by the chain of what has to exist first: the small features that carry little value alone but make the first big one live. Functional and technical specs rendered as readable HTML that a developer, a QA or a non-technical sponsor reads without a meeting. And a live sprint simulation: Fibonacci points, the developers by name, the team's weekly capacity, and the date the epic lands, recomputed as you move a story. All of it is public below, with an interactive version.
+
+### Visual AI slop is manageable
+
+AI builds a screen in minutes, and the default result looks like every other AI screen. In 2026 that costs credibility the moment a customer, a sponsor or a candidate opens it. Taste is the scarce input, and it can be learned: a small set of rules, real data in the mockup, a few checks you can measure. Product building and product design are not optional for a product manager anymore. A readable HTML mockup, validated with stakeholders before a line of production code, is still the fastest way to validate an idea, above all with people who are not technical, and it works the same for a custom solution and for an agentic system. The rules, the workflow and live mockups are below.
 
 ### Teaching
 
-AI adoption programs I co-designed and delivered reached about 3,000 leaders, product managers and developers, including executive education with FGV, Secovi-SP and LARES. The same material runs inside the teams I lead: internal tools, agentic workflows, AI-assisted development.
+AI adoption programs I co-designed and delivered reached about 3,000 leaders, product managers and developers, including executive education with FGV, Secovi-SP and LARES: internal tools, agentic workflows, AI-assisted development.
 
 ## What you'll find here
 
@@ -28,49 +39,60 @@ AI adoption programs I co-designed and delivered reached about 3,000 leaders, pr
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Benyoumen/backlog-writing-system"><img src="assets/cards/backlog.svg" alt="Backlog Writing System" width="100%"></a>
-      <p><b>Backlog Writing System.</b> A complete method from problem frame to weekly cadence: 18 skills, 14 templates, a fictional product run through every stage, and evals as acceptance criteria for AI behavior. <a href="https://benyoumen.github.io/backlog-writing-system/">Field guide</a> · <a href="https://github.com/Benyoumen/backlog-writing-system/blob/main/docs/manifesto.md">Manifesto</a></p>
+      <p><b>Backlog Writing System.</b> From problem frame to weekly cadence: Now / Next / Later with ROI impact and the enabling chain, readable spec previews, a live capacity simulation, evals as acceptance criteria for AI behavior. 21 skills, a fictional product run through every stage. <a href="https://benyoumen.github.io/backlog-writing-system/">Field guide</a> · <a href="https://benyoumen.github.io/backlog-writing-system/capacity.html">Capacity simulator</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Benyoumen/nextstone-concept"><img src="assets/cards/nextstone.svg" alt="NextStone concept" width="100%"></a>
-      <p><b>NextStone.</b> A product concept built end to end: a marketplace where real estate developers meet investment funds, four roles, each with its own dashboard. <a href="https://benyoumen.github.io/nextstone-concept/">Live demo</a> · <a href="https://github.com/Benyoumen/nextstone-concept#readme">Problem, decision, proof, next</a></p>
+      <a href="https://github.com/Benyoumen/no-slop-design"><img src="assets/cards/noslop.svg" alt="No-slop design" width="100%"></a>
+      <p><b>No-slop design.</b> The visual tells of generated screens and what to do instead, the mockup-first workflow, and live mockups built on real-looking data, each next to its generic version. <a href="https://benyoumen.github.io/no-slop-design/">Mockup gallery</a> · <a href="https://github.com/Benyoumen/no-slop-design/blob/main/docs/visual-slop-tells.md">The tells</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Benyoumen/agent-design-principles"><img src="assets/cards/agent.svg" alt="Agent Design Principles" width="100%"></a>
-      <p><b>Agent Design Principles.</b> How an agent earns autonomy on evals, the write contract between a screen and the system of record, and design rules for dense operator screens. <a href="https://github.com/Benyoumen/agent-design-principles/blob/main/docs/principles.md">Principles</a></p>
+      <a href="https://github.com/Benyoumen/nextstone-concept"><img src="assets/cards/nextstone.svg" alt="NextStone concept" width="100%"></a>
+      <p><b>NextStone.</b> A product concept built end to end: a marketplace where real estate developers meet investment funds, four roles, each with its own dashboard. <a href="https://benyoumen.github.io/nextstone-concept/">Live demo</a> · <a href="https://github.com/Benyoumen/nextstone-concept#readme">Problem, decision, proof, next</a></p>
     </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Benyoumen/agent-design-principles"><img src="assets/cards/agent.svg" alt="Agent Design Principles" width="100%"></a>
+      <p><b>Agent Design Principles.</b> How an agent earns autonomy on evidence, the write contract between a screen and the system of record, and design rules for screens people use all day. <a href="https://github.com/Benyoumen/agent-design-principles/blob/main/docs/principles.md">Principles</a></p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Benyoumen/pm-deck-and-writing-skills"><img src="assets/cards/deck.svg" alt="PM Deck and Writing Skills" width="100%"></a>
       <p><b>PM Deck and Writing Skills.</b> Editorial rules, a build pipeline with QA gates, and the anti-slop rewrite pass for decks and project messages. The sample deck is rendered with its own rules. <a href="https://benyoumen.github.io/pm-deck-and-writing-skills/">Live deck</a></p>
     </td>
+    <td width="50%" valign="top">
+      <a href="https://benyoumen.github.io/backlog-writing-system/spec-preview.html"><img src="assets/cards/spec.svg" alt="Readable spec preview" width="100%"></a>
+      <p><b>Readable spec preview.</b> A functional and technical spec rendered as one page a developer, a QA and a sponsor can all read: one plain sentence per item, numbered sections, a glossary, phases and the schedule. <a href="https://benyoumen.github.io/backlog-writing-system/spec-preview.html">Open the example</a></p>
+    </td>
   </tr>
 </table>
 
-Also here: practical product management methods, frameworks for building and evaluating agents, templates for discovery, prioritization and delivery, and examples of AI-native product workflows. Every example uses a fictional product and fictional data. Nothing comes from a customer or an employer.
+Every example uses a fictional product and fictional data. Nothing comes from a customer or an employer.
 
-## How I work
-
-```mermaid
-flowchart LR
-    F["0 Frame<br/>the number and the appetite"] --> D["1 Discover<br/>prototype to learn"]
-    D --> S["2 Decide<br/>spec to commit"] --> L["3 Slice<br/>vertical, verifiable"]
-    L --> W["4 Write<br/>four readers, one test"] --> B["5 Build and verify<br/>evals as acceptance"]
-    B --> H["6 Ship and learn<br/>did the number move?"]
-    H -. "what we learned" .-> F
-```
+## How I work, in plain words
 
 ```mermaid
 flowchart LR
-    T0["0 Observe"] --> T1["1 Alert"] --> T2["2 Propose"] --> T3["3 Act with review"] --> T4["4 Act alone"]
-    G["Golden set + rubric<br/>held-out pass rate, shadow weeks, never-cases zero"] -. "promotes or demotes" .-> T2
-    G -.-> T3
-    G -.-> T4
+    A["Find the real problem"] --> B["Measure how it is today"]
+    B --> C["Show a mockup, decide together"]
+    C --> D["Prioritize what makes it live"]
+    D --> E["Build in weekly slices"]
+    E --> F["Measure the gain"]
 ```
+
+*One loop, repeated. The number measured at the end is the first line of the next problem.*
+
+```mermaid
+flowchart LR
+    A["Watches"] --> B["Warns"] --> C["Suggests"] --> D["Acts, you approve"] --> E["Acts alone"]
+```
+
+*How an AI agent earns trust. Each step up needs proof: tests on real cases, weeks of shadow use, zero forbidden actions.*
 
 ## Background
 
-- 15+ years in product, B2B SaaS, growth and digital platforms. Former VP Product & Growth, CEO and founder.
+- Seventeen years in product, B2B SaaS, growth and digital platforms. Former VP Product & Growth, CEO and founder.
 - Two master's degrees in law and an MBA in real estate management (ESSEC). Trained in Paris, based in São Paulo, working internationally.
 - Native French, fluent English and Portuguese.
 
