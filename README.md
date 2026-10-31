@@ -62,8 +62,9 @@ I treat evals as product work. Before a change ships, it must pass a fixed datas
 - **Code before judges.** Anything a rule can check goes in code. A judge covers only what needs interpretation.
 - **One judge, one failure.** Pass or Fail, never a 1 to 5 score, and no trust before it agrees with human labels.
 - **Honest numbers.** Zero failures in 10 cases does not mean 100% accuracy. I state the margin.
+- **Watch it after launch.** A nine-step production loop with alerts and a 30-minute weekly review of the worst runs.
 
-The full version of the method: [AI evals workflow](https://github.com/Benyoumen/ai-evals-method) · [LLM-as-a-Judge](https://github.com/Benyoumen/ai-evals-method/blob/main/docs/llm-as-a-judge.md) · [the backlog workflow](https://github.com/Benyoumen/backlog-writing-system/blob/main/docs/workflow.md) · [the agent principles](https://github.com/Benyoumen/agent-design-principles/blob/main/docs/principles.md).
+The full version of the method: [AI evals workflow](https://github.com/Benyoumen/ai-evals-method) · [Production monitoring](https://github.com/Benyoumen/ai-evals-method/blob/main/docs/production-monitoring.md) · [RAG evals](https://github.com/Benyoumen/ai-evals-method/blob/main/docs/rag-evals.md) · [LLM-as-a-Judge](https://github.com/Benyoumen/ai-evals-method/blob/main/docs/llm-as-a-judge.md) · [the backlog workflow](https://github.com/Benyoumen/backlog-writing-system/blob/main/docs/workflow.md) · [the agent principles](https://github.com/Benyoumen/agent-design-principles/blob/main/docs/principles.md).
 
 ## What you'll find here
 
@@ -81,7 +82,7 @@ The full version of the method: [AI evals workflow](https://github.com/Benyoumen
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Benyoumen/ai-evals-method"><img src="https://benyoumen.github.io/Benyoumen/assets/cards/evals.svg" alt="AI Evals Method" width="100%"></a>
-      <p><b>AI Evals Method.</b> How I measure, improve and ship an agent: traces, datasets, experiments, a validated judge and a six-point release gate. Built and tested with Arize AX.<br><a href="https://github.com/Benyoumen/ai-evals-method#the-workflow">The workflow</a> · <a href="https://github.com/Benyoumen/ai-evals-method#lessons-from-running-it">Lessons</a></p>
+      <p><b>AI Evals Method.</b> How I measure, improve and ship an agent: traces, datasets, experiments, a validated judge and a six-point release gate. Built and tested with Arize AX.<br><a href="https://github.com/Benyoumen/ai-evals-method#the-workflow">The workflow</a> · <a href="https://github.com/Benyoumen/ai-evals-method/blob/main/docs/production-monitoring.md">Monitoring</a> · <a href="https://github.com/Benyoumen/ai-evals-method/blob/main/docs/rag-evals.md">RAG evals</a> · <a href="https://github.com/Benyoumen/ai-evals-method#lessons-from-running-it">Lessons</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Benyoumen/ai-evals-method/blob/main/docs/llm-as-a-judge.md"><img src="https://benyoumen.github.io/Benyoumen/assets/cards/judge.svg" alt="LLM-as-a-Judge" width="100%"></a>
