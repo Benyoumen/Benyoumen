@@ -43,13 +43,13 @@ Four rules keep this work from turning into one-off consulting:
 
 ## How I work
 
-<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/product-loop.svg" alt="The 4D product loop: 1 Discover, 2 Design, 3 Develop, 4 Deploy, then the next loop" width="100%"></p>
+<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/product-loop.svg?v=2" alt="The 4D product loop: 1 Discover, 2 Design, 3 Develop, 4 Deploy, then the next loop" width="100%"></p>
 
 I follow the 4D method from Product Faculty: Discover, Design, Develop and Deploy. Each phase ends with a clear check. If the check fails, the work goes back one phase. The loop is the same for a client's operation and for a product with many customers.
 
 Prioritization gets as much care as discovery. I rank work by user value, KPI impact, expected ROI, effort and dependencies. Sometimes a small feature goes first because a bigger one depends on it.
 
-<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/autonomy-ladder.svg" alt="How an AI agent earns autonomy: 1 Suggest, 2 Recommend, 3 Approve, 4 Veto window, 5 Act and report" width="100%"></p>
+<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/autonomy-ladder.svg?v=2" alt="How an AI agent earns autonomy: 1 Suggest, 2 Recommend, 3 Approve, 4 Veto window, 5 Act and report" width="100%"></p>
 
 The levels follow Sheridan's scale of automation, the model Product Faculty uses to design AI features. An agent gets a level per type of action, not one level overall. For example, it may log a note on its own but still need approval to send an email. To move up, it needs evidence: a pass rate on real test cases, a trial run next to the team, a working undo, and the process owner's sign-off.
 
