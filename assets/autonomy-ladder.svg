@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="How an AI agent earns autonomy: five levels from Observe to Act alone, each step up needs evidence">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+<rect width="1200" height="560" rx="18" fill="url(#g)"/>
+<circle cx="1080" cy="40" r="140" fill="#ffffff" fill-opacity="0.05"/>
+<g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#ffffff">
+<text x="40" y="56" font-size="30" font-weight="700">How an AI agent earns autonomy</text>
+<text x="40" y="90" font-size="18" fill-opacity="0.8">It moves up one level at a time, and only with evidence.</text>
+
+<g fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.25">
+<rect x="40" y="330" width="210" height="150" rx="14"/>
+<rect x="270" y="290" width="210" height="190" rx="14"/>
+<rect x="500" y="250" width="210" height="230" rx="14"/>
+<rect x="730" y="210" width="210" height="270" rx="14"/>
+<rect x="960" y="170" width="210" height="310" rx="14"/>
+</g>
+
+<g font-size="15" fill="#4ade80" text-anchor="middle">
+<text x="375" y="278">✓ reads correctly</text>
+<text x="605" y="238">✓ passes the tests</text>
+<text x="835" y="198">✓ trial run, owner signs</text>
+<text x="1065" y="158">✓ keeps passing</text>
+</g>
+
+<g font-size="22" font-weight="700">
+<text x="60" y="364"><tspan fill="#c4b5fd">0 </tspan>Observe</text>
+<text x="290" y="324"><tspan fill="#c4b5fd">1 </tspan>Alert</text>
+<text x="520" y="284"><tspan fill="#c4b5fd">2 </tspan>Propose</text>
+<text x="750" y="244"><tspan fill="#c4b5fd">3 </tspan>Act + review</text>
+<text x="980" y="204"><tspan fill="#c4b5fd">4 </tspan>Act alone</text>
+</g>
+
+<g font-size="12" fill-opacity="0.65" letter-spacing="1">
+<text x="60" y="392">AGENT</text><text x="60" y="438">PERSON</text>
+<text x="290" y="352">AGENT</text><text x="290" y="398">PERSON</text>
+<text x="520" y="312">AGENT</text><text x="520" y="358">PERSON</text>
+<text x="750" y="272">AGENT</text><text x="750" y="318">PERSON</text>
+<text x="980" y="232">AGENT</text><text x="980" y="278">PERSON</text>
+</g>
+
+<g font-size="17" fill-opacity="0.95">
+<text x="60" y="413">reads and reports</text><text x="60" y="459">does everything</text>
+<text x="290" y="373">flags what matters</text><text x="290" y="419">decides and acts</text>
+<text x="520" y="333">prepares the action</text><text x="520" y="379">approves each one</text>
+<text x="750" y="293">acts, with undo</text><text x="750" y="339">checks a sample</text>
+<text x="980" y="253">acts and reports</text><text x="980" y="299">reads summaries</text>
+</g>
+
+<text x="40" y="524" font-size="17" fill-opacity="0.85">One mistake sends the agent back one level. Payments and customer emails stay at Propose by default.</text>
+</g>
+</svg>
