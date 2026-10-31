@@ -1,10 +1,10 @@
 <!-- Images are served from GitHub Pages (benyoumen.github.io/Benyoumen) so they still load when raw.githubusercontent.com is down. Edit the files in assets/, push, and Pages republishes them. -->
 
-<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/banner.svg" alt="Benjamin Tayar, product leader building AI products and agents" width="100%"></p>
+<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/banner.svg?v=3" alt="Benjamin Tayar, Forward Deployed PM building AI products and agents" width="100%"></p>
 
 <h2 align="center">Hi, I'm Ben 👋</h2>
 
-<p align="center"><b>Product leader in São Paulo. I find the problem worth solving, decide what to build first, and build it with AI, without the slop.</b></p>
+<p align="center"><b>Forward Deployed PM in São Paulo. I find the problem worth solving, decide what to build first, and build it with AI, without the slop.</b></p>
 
 ## About me
 
@@ -28,9 +28,9 @@ Three rules shaped the design:
 2. A person approves before the agent writes to the CRM, until the agent earns more autonomy.
 3. Agree on the business KPI and its baseline before building anything.
 
-## Building inside the client's operation
+## Forward Deployed PM
 
-Part of my work happens inside a client's operation, next to the people who do the job. I learn their workflow well enough to do it myself. Then I build the agent where they already work: their CRM, their spreadsheet or their chat tool.
+I work as a Forward Deployed PM: inside the client's operation, next to the people who do the job. I learn their workflow in detail. Then I build the agent where they already work: their CRM, their spreadsheet or their chat tool.
 
 Nobody relays the problem through a chain of handoffs. I hear it directly from the people who have it, so the solution fits the real constraint.
 
@@ -53,7 +53,17 @@ Prioritization gets as much care as discovery. I rank work by user value, KPI im
 
 The levels follow Sheridan's scale of automation, the model Product Faculty uses to design AI features. An agent gets a level per type of action, not one level overall. For example, it may log a note on its own but still need approval to send an email. To move up, it needs evidence: a pass rate on real test cases, a trial run next to the team, a working undo, and the process owner's sign-off.
 
-The full version of the method: [the backlog workflow](https://github.com/Benyoumen/backlog-writing-system/blob/main/docs/workflow.md) · [the agent principles](https://github.com/Benyoumen/agent-design-principles/blob/main/docs/principles.md).
+## How I evaluate AI agents
+
+<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/evals-loops.svg" alt="Two eval loops. Offline decides if a change may ship. Online finds what the agent gets wrong. Each new failure becomes a test case." width="100%"></p>
+
+I treat evals as product work. Before a change ships, it must pass a fixed dataset with code checks and a validated LLM judge, in repeated runs. After it ships, every run is traced, users rate the output, and each new failure becomes a test case.
+
+- **Code before judges.** Anything a rule can check goes in code. A judge covers only what needs interpretation.
+- **One judge, one failure.** Pass or Fail, never a 1 to 5 score, and no trust before it agrees with human labels.
+- **Honest numbers.** Zero failures in 10 cases does not mean 100% accuracy. I state the margin.
+
+The full version of the method: [AI evals workflow](https://github.com/Benyoumen/ai-evals-method) · [LLM-as-a-Judge](https://github.com/Benyoumen/ai-evals-method/blob/main/docs/llm-as-a-judge.md) · [the backlog workflow](https://github.com/Benyoumen/backlog-writing-system/blob/main/docs/workflow.md) · [the agent principles](https://github.com/Benyoumen/agent-design-principles/blob/main/docs/principles.md).
 
 ## What you'll find here
 
@@ -66,6 +76,16 @@ The full version of the method: [the backlog workflow](https://github.com/Benyou
     <td width="50%" valign="top">
       <a href="https://github.com/Benyoumen/no-slop-design"><img src="https://benyoumen.github.io/Benyoumen/assets/cards/noslop.svg" alt="No-slop design" width="100%"></a>
       <p><b>No-slop design.</b> How to spot screens that look generic and AI-made, and how to fix them. Each live mockup sits next to its generic version.<br><a href="https://benyoumen.github.io/no-slop-design/">Mockup gallery</a> · <a href="https://github.com/Benyoumen/no-slop-design/blob/main/docs/visual-slop-tells.md">The 16 tells</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Benyoumen/ai-evals-method"><img src="https://benyoumen.github.io/Benyoumen/assets/cards/evals.svg" alt="AI Evals Method" width="100%"></a>
+      <p><b>AI Evals Method.</b> How I measure, improve and ship an agent: traces, datasets, experiments, a validated judge and a six-point release gate. Built and tested with Arize AX.<br><a href="https://github.com/Benyoumen/ai-evals-method#the-workflow">The workflow</a> · <a href="https://github.com/Benyoumen/ai-evals-method#lessons-from-running-it">Lessons</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Benyoumen/ai-evals-method/blob/main/docs/llm-as-a-judge.md"><img src="https://benyoumen.github.io/Benyoumen/assets/cards/judge.svg" alt="LLM-as-a-Judge" width="100%"></a>
+      <p><b>LLM-as-a-Judge.</b> How to write a judge that can be trusted, and what the PM should decide. Includes a ready-to-adapt judge prompt.<br><a href="https://github.com/Benyoumen/ai-evals-method/blob/main/docs/llm-as-a-judge.md">The method</a> · <a href="https://github.com/Benyoumen/ai-evals-method/blob/main/examples/evidence-supported-judge.md">Example judge</a></p>
     </td>
   </tr>
   <tr>
@@ -101,15 +121,15 @@ I co-designed and delivered AI adoption programs for about 3,000 leaders, produc
 <table>
   <tr>
     <td width="33%" valign="top">
-      <img src="https://benyoumen.github.io/Benyoumen/assets/certs/productfaculty-aipm.svg" alt="Product Faculty, AI Product Management Certification, 2026" width="100%">
-      <p><b>AI Product Management.</b> Product Faculty, 2026. Taught by Rohan Varma (Product, Codex at OpenAI) and Shubham Saboo (Senior AI Product Manager, Google).</p>
+      <a href="https://lms.productfaculty.com/verify/benjamin-tayar-60888"><img src="https://benyoumen.github.io/Benyoumen/assets/certs/productfaculty-aipm.svg?v=2" alt="Product Faculty, AI Product Management Certificate" width="100%"></a>
+      <p><b>AI Product Management.</b> Product Faculty. <a href="https://lms.productfaculty.com/verify/benjamin-tayar-60888">Verify the certificate</a>. Taught by Rohan Varma (Product, Codex at OpenAI) and Shubham Saboo (Senior AI Product Manager, Google).</p>
     </td>
     <td width="33%" valign="top">
-      <img src="https://benyoumen.github.io/Benyoumen/assets/certs/lewagon-data.svg" alt="Le Wagon, Data Science and AI" width="100%">
+      <a href="#certifications"><img src="https://benyoumen.github.io/Benyoumen/assets/certs/lewagon-data.svg" alt="Le Wagon, Data Science and AI" width="100%"></a>
       <p><b>Data Science and AI.</b> Le Wagon bootcamp. Python, machine learning, deep learning and models in production.</p>
     </td>
     <td width="33%" valign="top">
-      <img src="https://benyoumen.github.io/Benyoumen/assets/certs/lewagon-web.svg" alt="Le Wagon, Web Development" width="100%">
+      <a href="#certifications"><img src="https://benyoumen.github.io/Benyoumen/assets/certs/lewagon-web.svg" alt="Le Wagon, Web Development" width="100%"></a>
       <p><b>Web Development.</b> Le Wagon bootcamp. Full-stack web apps, from database to interface.</p>
     </td>
   </tr>
@@ -124,6 +144,6 @@ I co-designed and delivered AI adoption programs for about 3,000 leaders, produc
 
 ## Open to
 
-**Head of AI Product · Director of Product · Head of Product · Group PM · Senior AI PM**
+**Forward Deployed PM · Head of AI Product · Director of Product · Group PM · Senior AI PM**
 
 Remote roles across the US, Europe and Latin America.

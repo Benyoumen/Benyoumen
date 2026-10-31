@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" role="img" aria-label="AI Evals Method">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#0f766e"/></linearGradient></defs>
+<rect width="640" height="320" rx="20" fill="url(#g)"/>
+<circle cx="560" cy="40" r="110" fill="#ffffff" fill-opacity="0.06"/><circle cx="610" cy="290" r="80" fill="#ffffff" fill-opacity="0.06"/>
+<text x="40" y="78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">AI Evals Method</text>
+<text x="40" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" fill-opacity="0.92">Two loops, fifteen steps, one release gate.</text><text x="40" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" fill-opacity="0.92">Traces, datasets, experiments, judges.</text>
+<rect x="40" y="212" rx="14" ry="14" width="97" height="30" fill="#ffffff" fill-opacity="0.16"/><text x="52" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">Arize AX</text><rect x="145" y="212" rx="14" ry="14" width="129" height="30" fill="#ffffff" fill-opacity="0.16"/><text x="157" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">Release gate</text><rect x="282" y="212" rx="14" ry="14" width="129" height="30" fill="#ffffff" fill-opacity="0.16"/><text x="294" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">Rule of three</text>
+<circle cx="52" cy="276" r="6" fill="#4ade80"/><text x="66" y="281" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" fill-opacity="0.95">Workflow and lessons</text>
+</svg>
