@@ -45,7 +45,7 @@ Four rules keep this work from turning into one-off consulting:
 
 <p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/product-loop.svg?v=2" alt="The 4D product loop: 1 Discover, 2 Design, 3 Develop, 4 Deploy, then the next loop" width="100%"></p>
 
-I follow the 4D method from Product Faculty: Discover, Design, Develop and Deploy. Each phase ends with a clear check. If the check fails, the work goes back one phase. The loop is the same for a client's operation and for a product with many customers.
+I follow the 4D method: Discover, Design, Develop and Deploy. Each phase ends with a clear check. If the check fails, the work goes back one phase. The loop is the same for a client's operation and for a product with many customers.
 
 Prioritization gets as much care as discovery. I rank work by user value, KPI impact, expected ROI, effort and dependencies. Sometimes a small feature goes first because a bigger one depends on it.
 
