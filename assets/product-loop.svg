@@ -1,53 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="The product loop: frame, discover, decide, prioritize, write, build, learn, then start again">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="The 4D product loop: Discover, Design, Develop, Deploy, then the next loop">
 <defs>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#0891b2"/></linearGradient>
 <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ffffff" fill-opacity="0.8"/></marker>
 </defs>
-<rect width="1200" height="520" rx="18" fill="url(#g)"/>
+<rect width="1200" height="420" rx="18" fill="url(#g)"/>
 <circle cx="1080" cy="40" r="140" fill="#ffffff" fill-opacity="0.05"/>
 <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#ffffff">
-<text x="40" y="56" font-size="30" font-weight="700">The product loop</text>
-<text x="1160" y="56" font-size="18" fill-opacity="0.8" text-anchor="end">It starts with a number and ends by checking it.</text>
+<text x="30" y="56" font-size="30" font-weight="700">The 4D product loop</text>
+<text x="1170" y="56" font-size="18" fill-opacity="0.8" text-anchor="end">Discover, Design, Develop, Deploy. Then again.</text>
 
 <g fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.25">
-<rect x="40" y="90" width="250" height="150" rx="14"/>
-<rect x="330" y="90" width="250" height="150" rx="14"/>
-<rect x="620" y="90" width="250" height="150" rx="14"/>
-<rect x="910" y="90" width="250" height="150" rx="14"/>
-<rect x="765" y="320" width="250" height="150" rx="14"/>
-<rect x="475" y="320" width="250" height="150" rx="14"/>
-<rect x="185" y="320" width="250" height="150" rx="14"/>
+<rect x="30" y="90" width="255" height="210" rx="14"/>
+<rect x="325" y="90" width="255" height="210" rx="14"/>
+<rect x="620" y="90" width="255" height="210" rx="14"/>
+<rect x="915" y="90" width="255" height="210" rx="14"/>
 </g>
 
-<g font-size="24" font-weight="700">
-<text x="62" y="134"><tspan fill="#67e8f9">1 </tspan>Frame</text>
-<text x="352" y="134"><tspan fill="#67e8f9">2 </tspan>Discover</text>
-<text x="642" y="134"><tspan fill="#67e8f9">3 </tspan>Decide</text>
-<text x="932" y="134"><tspan fill="#67e8f9">4 </tspan>Prioritize</text>
-<text x="787" y="364"><tspan fill="#67e8f9">5 </tspan>Write</text>
-<text x="497" y="364"><tspan fill="#67e8f9">6 </tspan>Build</text>
-<text x="207" y="364"><tspan fill="#67e8f9">7 </tspan>Learn</text>
+<g font-size="26" font-weight="700">
+<text x="52" y="134"><tspan fill="#67e8f9">1 </tspan>Discover</text>
+<text x="347" y="134"><tspan fill="#67e8f9">2 </tspan>Design</text>
+<text x="642" y="134"><tspan fill="#67e8f9">3 </tspan>Develop</text>
+<text x="937" y="134"><tspan fill="#67e8f9">4 </tspan>Deploy</text>
 </g>
 
-<g font-size="18" fill-opacity="0.92">
-<text x="62" y="176">The problem and</text><text x="62" y="202">the number to move</text>
-<text x="352" y="176">Test a mockup with</text><text x="352" y="202">users, before code</text>
-<text x="642" y="176">A short spec an</text><text x="642" y="202">engineer can start from</text>
-<text x="932" y="176">Now / Next / Later,</text><text x="932" y="202">prerequisites first</text>
-<text x="787" y="406">Stories that every</text><text x="787" y="432">reader can act on</text>
-<text x="497" y="406">A usable slice a week,</text><text x="497" y="432">evals as the test</text>
-<text x="207" y="406">Did the number move?</text><text x="207" y="432">That starts the next loop</text>
+<g font-size="17" fill-opacity="0.92">
+<text x="52" y="180">· Problem and baseline KPI</text><text x="52" y="214">· Ranked by value and ROI</text><text x="52" y="248">· A short AI PRD</text>
+<text x="347" y="180">· Mockup tested with users</text><text x="347" y="214">· Autonomy level per action</text><text x="347" y="248">· A plan for AI failures</text>
+<text x="642" y="180">· Model, prompts, context</text><text x="642" y="214">· Evals as acceptance test</text><text x="642" y="248">· A usable slice each week</text>
+<text x="937" y="180">· Ship, monitor, measure</text><text x="937" y="214">· Did the KPI move?</text><text x="937" y="248">· Failures become tests</text>
 </g>
 
 <g stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.5" fill="none" marker-end="url(#a)">
-<path d="M292 165 H326"/>
-<path d="M582 165 H616"/>
-<path d="M872 165 H906"/>
-<path d="M1035 242 V280 H890 V316"/>
-<path d="M763 395 H729"/>
-<path d="M473 395 H439"/>
-<path d="M183 395 H110 V244" stroke-dasharray="7 6"/>
+<path d="M287 195 H321"/>
+<path d="M582 195 H616"/>
+<path d="M877 195 H911"/>
+<path d="M1042 302 V350 H157 V306" stroke-dasharray="7 6"/>
 </g>
-<text x="60" y="292" font-size="16" fill-opacity="0.85" transform="rotate(-90 60 292)" text-anchor="middle">next loop</text>
+<text x="600" y="385" font-size="17" fill-opacity="0.85" text-anchor="middle">What we learn in Deploy opens the next Discover.</text>
 </g>
 </svg>

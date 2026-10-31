@@ -28,24 +28,32 @@ Three rules shaped the design:
 2. A person approves before the agent writes to the CRM, until the agent earns more autonomy.
 3. Agree on the business KPI and its baseline before building anything.
 
+## Building inside the client's operation
+
+Part of my work happens inside a client's operation, next to the people who do the job. I learn their workflow well enough to do it myself. Then I build the agent where they already work: their CRM, their spreadsheet or their chat tool.
+
+Nobody relays the problem through a chain of handoffs. I hear it directly from the people who have it, so the solution fits the real constraint.
+
+Four rules keep this work from turning into one-off consulting:
+
+- **Outcome first, then scale.** First, a result the client can measure. Then, a version we can repeat.
+- **Build once, reuse often.** A piece built for one client is designed so the next client can use it too.
+- **Function over form.** If people don't use what we built, we change it, even if we liked it.
+- **Value that stays.** The client's team runs and corrects the agent with its own evals. The value should not leave when I do.
+
 ## How I work
 
-<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/product-loop.svg" alt="The product loop: 1 Frame, 2 Discover, 3 Decide, 4 Prioritize, 5 Write, 6 Build, 7 Learn, then the next loop" width="100%"></p>
+<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/product-loop.svg" alt="The 4D product loop: 1 Discover, 2 Design, 3 Develop, 4 Deploy, then the next loop" width="100%"></p>
 
-Every project follows the same seven steps. Each step has one question to answer before the next one starts. If the answer is no, the work goes back one step.
-
-I use this loop in two settings:
-
-- **Inside a client's operation** (forward-deployed). I build a tailored solution on their data and workflows.
-- **On a product for many customers.** Discovery runs through interviews, prototypes and a Now / Next / Later roadmap.
+I follow the 4D method from Product Faculty: Discover, Design, Develop and Deploy. Each phase ends with a clear check. If the check fails, the work goes back one phase. The loop is the same for a client's operation and for a product with many customers.
 
 Prioritization gets as much care as discovery. I rank work by user value, KPI impact, expected ROI, effort and dependencies. Sometimes a small feature goes first because a bigger one depends on it.
 
-<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/autonomy-ladder.svg" alt="How an AI agent earns autonomy: 0 Observe, 1 Alert, 2 Propose, 3 Act with review, 4 Act alone" width="100%"></p>
+<p align="center"><img src="https://benyoumen.github.io/Benyoumen/assets/autonomy-ladder.svg" alt="How an AI agent earns autonomy: 1 Suggest, 2 Recommend, 3 Approve, 4 Veto window, 5 Act and report" width="100%"></p>
 
-An agent gets autonomy per type of action, not all at once. For example, it may log a note on its own but still only propose an email. To move up a level, it needs evidence: a pass rate on real test cases, a trial run next to the team, a working undo, and the process owner's sign-off.
+The levels follow Sheridan's scale of automation, the model Product Faculty uses to design AI features. An agent gets a level per type of action, not one level overall. For example, it may log a note on its own but still need approval to send an email. To move up, it needs evidence: a pass rate on real test cases, a trial run next to the team, a working undo, and the process owner's sign-off.
 
-The method builds on modern [product discovery practice](https://www.svpg.com/the-ai-productivity-paradox/) and on published [levels of agent autonomy](https://arxiv.org/abs/2506.12469). The full version, with sources: [the backlog workflow](https://github.com/Benyoumen/backlog-writing-system/blob/main/docs/workflow.md) · [the agent principles](https://github.com/Benyoumen/agent-design-principles/blob/main/docs/principles.md).
+The full version of the method: [the backlog workflow](https://github.com/Benyoumen/backlog-writing-system/blob/main/docs/workflow.md) · [the agent principles](https://github.com/Benyoumen/agent-design-principles/blob/main/docs/principles.md).
 
 ## What you'll find here
 
@@ -87,6 +95,25 @@ Every example uses a fictional product and fictional data. Nothing comes from a 
 ## Teaching
 
 I co-designed and delivered AI adoption programs for about 3,000 leaders, product managers and developers. Partners include FGV, Secovi-SP and LARES. The programs teach teams to find high-value AI use cases, link them to KPIs and ROI, and redesign their workflows.
+
+## Certifications
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <img src="https://benyoumen.github.io/Benyoumen/assets/certs/productfaculty-aipm.svg" alt="Product Faculty, AI Product Management Certification, 2026" width="100%">
+      <p><b>AI Product Management.</b> Product Faculty, 2026. Taught by Rohan Varma (Product, Codex at OpenAI) and Shubham Saboo (Senior AI Product Manager, Google).</p>
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://benyoumen.github.io/Benyoumen/assets/certs/lewagon-data.svg" alt="Le Wagon, Data Science and AI" width="100%">
+      <p><b>Data Science and AI.</b> Le Wagon bootcamp. Python, machine learning, deep learning and models in production.</p>
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://benyoumen.github.io/Benyoumen/assets/certs/lewagon-web.svg" alt="Le Wagon, Web Development" width="100%">
+      <p><b>Web Development.</b> Le Wagon bootcamp. Full-stack web apps, from database to interface.</p>
+    </td>
+  </tr>
+</table>
 
 ## Background
 
